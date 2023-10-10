@@ -7,7 +7,7 @@ const fs = require('fs');
 
 //adding the google authentication on basis of the credentils you downloaded while making a service account
 const auth = new google.auth.GoogleAuth({
-    keyFile: "credentials.json",
+    keyFile: "cred.json",
     scopes: "https://www.googleapis.com/auth/spreadsheets",
   });
 
